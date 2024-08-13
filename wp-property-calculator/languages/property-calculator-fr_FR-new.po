@@ -1,0 +1,279 @@
+# Copyright (C) 2024 WP Property Calculator
+# This file is distributed under the same license as the WP Property Calculator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Property Calculator 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-property-"
+"calculator\n"
+"POT-Creation-Date: 2024-06-05 11:44:25+00:00\n"
+"PO-Revision-Date: 2024-06-05 17:17+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: languages/wpCalculator.catalog.php:1
+#: src/resources/views/backend/emailViewTemplate.php:35
+#: src/resources/views/frontend/viewfile.php:62
+msgid "Name"
+msgstr "Nom"
+
+#: languages/wpCalculator.catalog.php:2
+#: src/resources/views/backend/emailViewTemplate.php:17
+#: src/resources/views/backend/emailViewTemplate.php:36
+msgid "Subject"
+msgstr "Sujette"
+
+#: languages/wpCalculator.catalog.php:3
+#: src/resources/views/backend/emailViewTemplate.php:13
+msgid "Template Name"
+msgstr "Nom du modèle"
+
+#: languages/wpCalculator.catalog.php:4
+#: src/resources/views/backend/emailViewTemplate.php:22
+msgid "Body"
+msgstr "Corps"
+
+#: languages/wpCalculator.catalog.php:5
+#: src/resources/views/backend/emailViewTemplate.php:27
+msgid "Save Template"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:6
+#: src/resources/views/backend/emailViewTemplate.php:30
+msgid "Existing Email Templates"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:7
+#: src/resources/views/backend/emailViewTemplate.php:47
+msgid "Edit"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:8
+#: src/resources/views/backend/emailViewTemplate.php:48
+msgid "Delete"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:9 src/includes/adminMenu.php:18
+#: src/resources/views/backend/emailViewTemplate.php:8
+msgid "Email Templates"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:10 languages/wpCalculator.catalog.php:49
+#: src/includes/adminMenu.php:15
+#: src/resources/views/backend/propertyViewForm.php:7
+msgid "Properties"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:11
+#: src/resources/views/backend/propertyViewForm.php:11
+msgid "Property Name"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:12
+#: src/resources/views/backend/propertyViewForm.php:15
+msgid "Add Property"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:13
+#: src/resources/views/backend/propertyViewForm.php:18
+msgid "Existing Properties"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:14 src/includes/adminMenu.php:16
+#: src/resources/views/backend/seasonsViewForm.php:7
+msgid "Seasons"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:15
+#: src/resources/views/backend/seasonsViewForm.php:11
+msgid "Season Name"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:16
+#: src/resources/views/backend/seasonsViewForm.php:15
+msgid "Start Time"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:17
+#: src/resources/views/backend/seasonsViewForm.php:20
+msgid "End Time"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:18
+msgid "Add Season"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:19
+#: src/resources/views/backend/seasonsViewForm.php:27
+msgid "Existing Seasons"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:20
+msgid "Created Date"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:21
+msgid "Shortcode"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:22 src/includes/adminMenu.php:17
+#: src/resources/views/backend/rateViewForm.php:12
+msgid "Rates"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:23
+#: src/resources/views/backend/rateViewForm.php:16
+#: src/resources/views/frontend/viewfile.php:10
+#: src/resources/views/frontend/viewfile.php:22
+msgid "Price"
+msgstr "Prix"
+
+#: languages/wpCalculator.catalog.php:24
+#: src/resources/views/backend/rateViewForm.php:20
+msgid "Property"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:25
+#: src/resources/views/backend/rateViewForm.php:34
+msgid "Season"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:26
+#: src/resources/views/backend/rateViewForm.php:48
+msgid "Add Rate"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:27
+#: src/resources/views/backend/rateViewForm.php:51
+msgid "Existing Rates"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:28
+#: src/resources/views/backend/rateViewForm.php:37
+msgid "Select Season"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:29
+#: src/resources/views/backend/rateViewForm.php:23
+msgid "Select Property"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:30 src/includes/adminMenu.php:19
+#: src/resources/views/backend/settingViewTemplate.php:7
+msgid "Settings"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:31
+#: src/resources/views/backend/settingViewTemplate.php:11
+msgid "Currency"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:32
+#: src/resources/views/backend/settingViewTemplate.php:21
+msgid "Currency Format"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:33
+#: src/resources/views/backend/settingViewTemplate.php:33
+msgid "Save Settings"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:34
+#: src/resources/views/frontend/viewfile.php:8
+msgid "Period"
+msgstr "Période"
+
+#: languages/wpCalculator.catalog.php:35
+#: src/resources/views/frontend/viewfile.php:9
+#: src/resources/views/frontend/viewfile.php:20
+msgid "Nights"
+msgstr "Nuits"
+
+#: languages/wpCalculator.catalog.php:36
+msgid "Select Rental Period"
+msgstr "Rental dhdh"
+
+#: languages/wpCalculator.catalog.php:37
+#: src/resources/views/frontend/viewfile.php:26
+msgid "Days"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:38
+#: src/resources/views/frontend/viewfile.php:27
+msgid "Week"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:39
+#: src/resources/views/frontend/viewfile.php:31
+msgid "Bank Transfer"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:40
+#: src/resources/views/frontend/viewfile.php:32
+msgid "Credit Card"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:41
+#: src/resources/views/frontend/viewfile.php:37
+msgid "Adults"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:42
+#: src/resources/views/frontend/viewfile.php:45
+msgid "Children"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:43
+#: src/resources/views/frontend/viewfile.php:53
+msgid "Infants"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:44
+#: src/resources/views/frontend/viewfile.php:65
+msgid "Phone with country code"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:45
+#: src/resources/views/frontend/viewfile.php:68
+msgid "Email"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:46
+#: src/resources/views/frontend/viewfile.php:71
+msgid "Comment"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:47
+#: src/resources/views/frontend/viewfile.php:74
+msgid "Submit"
+msgstr ""
+
+#: languages/wpCalculator.catalog.php:48 src/includes/adminMenu.php:14
+msgid "Property Calculator"
+msgstr ""
+
+#: src/resources/views/backend/emailViewTemplate.php:34
+msgid "ID"
+msgstr ""
+
+#: src/resources/views/backend/emailViewTemplate.php:37
+msgid "Actions"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Property Calculator"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin to manage properties, seasons, rates, and calculate property prices "
+"based on seasons."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Glocify"
+msgstr ""

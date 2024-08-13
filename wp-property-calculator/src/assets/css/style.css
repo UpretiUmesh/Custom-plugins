@@ -1,0 +1,49 @@
+.hazeways-form {
+    background-color: #d7b87b;
+    padding: 20px;
+    border-radius: 8px;
+}
+.hazeways-form p {
+    margin: 0 0 10px;
+}
+.hazeways-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hazeways-form input[type="text"],
+.hazeways-form input[type="email"],
+.hazeways-form textarea,
+.hazeways-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.hazeways-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+.hazeways-form .flexible-options,
+.hazeways-form .payment-methods {
+    display: flex;
+    gap: 10px;
+}
+.hazeways-form .adults-children-infants {
+    display: flex;
+    gap: 10px;
+}
+.hazeways-form .adults-children-infants select {
+    flex: 1;
+}
+.hazeways-form .submit-button {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hazeways-form .submit-button:hover {
+    background-color: #a0522d;
+}

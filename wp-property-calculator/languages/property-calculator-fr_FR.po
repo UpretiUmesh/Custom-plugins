@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-06-05 18:41+0530\n"
+"PO-Revision-Date: 2024-06-05 18:41+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/includes/adminMenu.php:14
+msgid "Property Calculator"
+msgstr "Calculateur de propriété"
+
+#: src/includes/adminMenu.php:15
+#: src/resources/views/backend/propertyViewForm.php:7
+msgid "Properties"
+msgstr "Propriétés"
+
+#: src/includes/adminMenu.php:16
+#: src/resources/views/backend/seasonsViewForm.php:7
+msgid "Seasons"
+msgstr "Saisons"
+
+#: src/includes/adminMenu.php:17
+#: src/resources/views/backend/rateViewForm.php:12
+msgid "Rates"
+msgstr "Les taux"
+
+#: src/includes/adminMenu.php:18
+#: src/resources/views/backend/emailViewTemplate.php:8
+msgid "Email Templates"
+msgstr "Modèles d'e-mails"
+
+#: src/includes/adminMenu.php:19
+#: src/resources/views/backend/settingViewTemplate.php:7
+msgid "Settings"
+msgstr "Paramètres"
+
+#: src/includes/adminMenu.php:158
+msgid "Settings saved successfully."
+msgstr "Paramètres enregistrés avec succès."
+
+#: src/includes/classRatesListTable.php:39
+#: src/resources/views/backend/rateViewForm.php:16
+#: src/resources/views/frontend/viewfile.php:10
+#: src/resources/views/frontend/viewfile.php:22
+msgid "Price"
+msgstr "Prix"
+
+#: src/includes/classRatesListTable.php:40
+#: src/resources/views/backend/propertyViewForm.php:11
+msgid "Property Name"
+msgstr "Nom de la propriété"
+
+#: src/includes/classRatesListTable.php:41
+#: src/resources/views/backend/seasonsViewForm.php:11
+msgid "Season Name"
+msgstr "Nom de la saison"
+
+#: src/includes/classRatesListTable.php:42
+#: src/includes/classSeasonsListTable.php:36
+#: src/includes/propertiesListTable.php:38
+msgid "Created Date"
+msgstr "Date de création"
+
+#: src/includes/classSeasonsListTable.php:33
+#: src/includes/propertiesListTable.php:37
+#: src/resources/views/backend/emailViewTemplate.php:35
+#: src/resources/views/frontend/viewfile.php:62
+msgid "Name"
+msgstr "Nom"
+
+#: src/includes/classSeasonsListTable.php:34
+#: src/resources/views/backend/seasonsViewForm.php:15
+msgid "Start Time"
+msgstr "Heure de début"
+
+#: src/includes/classSeasonsListTable.php:35
+#: src/resources/views/backend/seasonsViewForm.php:20
+msgid "End Time"
+msgstr "Heure de fin"
+
+#: src/includes/propertiesListTable.php:39
+msgid "Shortcode"
+msgstr "Petit code"
+
+#: src/includes/shortcode.php:73
+msgid "Property not found."
+msgstr "Propriété introuvable."
+
+#: src/includes/shortcode.php:130
+msgid "Your request has been sent successfully."
+msgstr "Votre demande a été envoyée avec succès."
+
+#: src/resources/views/backend/emailViewTemplate.php:13
+msgid "Template Name"
+msgstr "Nom du modèle"
+
+#: src/resources/views/backend/emailViewTemplate.php:17
+#: src/resources/views/backend/emailViewTemplate.php:36
+msgid "Subject"
+msgstr "Sujette"
+
+#: src/resources/views/backend/emailViewTemplate.php:22
+msgid "Body"
+msgstr "Corps"
+
+#: src/resources/views/backend/emailViewTemplate.php:27
+msgid "Save Template"
+msgstr "Enregistrer le modèle"
+
+#: src/resources/views/backend/emailViewTemplate.php:30
+msgid "Existing Email Templates"
+msgstr "Modèles d'e-mails existants"
+
+#: src/resources/views/backend/emailViewTemplate.php:34
+msgid "ID"
+msgstr "ID"
+
+#: src/resources/views/backend/emailViewTemplate.php:37
+msgid "Actions"
+msgstr "Actions"
+
+#: src/resources/views/backend/emailViewTemplate.php:47
+msgid "Edit"
+msgstr "Modifier"
+
+#: src/resources/views/backend/emailViewTemplate.php:48
+msgid "Delete"
+msgstr "Supprimer"
+
+#: src/resources/views/backend/propertyViewForm.php:15
+msgid "Add Property"
+msgstr "Ajouter une propriété"
+
+#: src/resources/views/backend/propertyViewForm.php:18
+msgid "Existing Properties"
+msgstr "Propriétés existantes"
+
+#: src/resources/views/backend/rateViewForm.php:20
+msgid "Property"
+msgstr "Propriété"
+
+#: src/resources/views/backend/rateViewForm.php:23
+msgid "Select Property"
+msgstr "Sélectionnez une propriété"
+
+#: src/resources/views/backend/rateViewForm.php:34
+msgid "Season"
+msgstr "Saison"
+
+#: src/resources/views/backend/rateViewForm.php:37
+msgid "Select Season"
+msgstr "Sélectionnez la saison"
+
+#: src/resources/views/backend/rateViewForm.php:48
+msgid "Add Rate"
+msgstr "Ajouter un tarif"
+
+#: src/resources/views/backend/rateViewForm.php:51
+msgid "Existing Rates"
+msgstr "Tarifs existants"
+
+#: src/resources/views/backend/seasonsViewForm.php:27
+msgid "Existing Seasons"
+msgstr "Saisons existantes"
+
+#: src/resources/views/backend/settingViewTemplate.php:11
+msgid "Currency"
+msgstr "Devise"
+
+#: src/resources/views/backend/settingViewTemplate.php:21
+msgid "Currency Format"
+msgstr "Format de devise"
+
+#: src/resources/views/backend/settingViewTemplate.php:33
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: src/resources/views/frontend/viewfile.php:8
+msgid "Period"
+msgstr "Période"
+
+#: src/resources/views/frontend/viewfile.php:9
+#: src/resources/views/frontend/viewfile.php:20
+msgid "Nights"
+msgstr "Nuits"
+
+#: src/resources/views/frontend/viewfile.php:12
+msgid "Select Rental Period"
+msgstr "Sélectionnez la saison"
+
+#: src/resources/views/frontend/viewfile.php:26
+msgid "Days"
+msgstr "Jours"
+
+#: src/resources/views/frontend/viewfile.php:27
+msgid "Week"
+msgstr "Semaine"
+
+#: src/resources/views/frontend/viewfile.php:31
+msgid "Bank Transfer"
+msgstr "Virement"
+
+#: src/resources/views/frontend/viewfile.php:32
+msgid "Credit Card"
+msgstr "Carte de crédit"
+
+#: src/resources/views/frontend/viewfile.php:37
+msgid "Adults"
+msgstr "Adultes"
+
+#: src/resources/views/frontend/viewfile.php:45
+msgid "Children"
+msgstr "Enfants"
+
+#: src/resources/views/frontend/viewfile.php:53
+msgid "Infants"
+msgstr "Les nourrissons"
+
+#: src/resources/views/frontend/viewfile.php:65
+msgid "Phone with country code"
+msgstr "Téléphone avec code pays"
+
+#: src/resources/views/frontend/viewfile.php:68
+msgid "Email"
+msgstr "E-mail"
+
+#: src/resources/views/frontend/viewfile.php:71
+msgid "Comment"
+msgstr "Commentaire"
+
+#: src/resources/views/frontend/viewfile.php:74
+msgid "Submit"
+msgstr "Soumettre"
