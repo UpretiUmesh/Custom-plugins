@@ -20,11 +20,11 @@ class sampleProductModal
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
                         <div class="sample-cart-info">
                             <h6><?= $sampleOptions['spp_modal_body_text'] ?></h6>
                         </div>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
                         <div class="sample-cart-items d-flex">
                             <!-- Repeat this div for each sample item in the cart -->
                             <!-- Add more sample items as needed -->

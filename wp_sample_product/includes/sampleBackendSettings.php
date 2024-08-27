@@ -61,19 +61,19 @@ class sampleBackendSettings
             'spp_view_modal_button' => [
                 'label' => __('Custom Cart Button Text', 'spp'),
                 'type' => 'text',
-                'default' => '',
+                'default' => 'View Sample Cart',
                 'description' => __('Set the custom text for the "View Sample Cart" button.', 'spp')
             ],
             'spp_modal_head_text' => [
                 'label' => __('Custom Cart Heading', 'spp'),
                 'type' => 'text',
-                'default' => '',
+                'default' => 'Example Heading',
                 'description' => __('Change the custom cart heading.', 'spp')
             ],
             'spp_modal_body_text' => [
                 'label' => __('Custom Cart Body Text', 'spp'),
                 'type' => 'text',
-                'default' => '',
+                'default' => 'Example Body',
                 'description' => __('Change the custom cart body text.', 'spp')
             ],            
 
