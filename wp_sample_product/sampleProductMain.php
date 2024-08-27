@@ -29,6 +29,7 @@ function enqueue_sample_product_scripts() {
 
     // Enqueue your custom script
     wp_enqueue_script('sample-product-script', plugins_url('/assets/js/sample-product.js', __FILE__), array('jquery'), '1.0', true);
+    wp_enqueue_style('sample-product-style', plugins_url('/assets/css/style.css', __FILE__));
 
     // Localize script to pass data to JavaScript
     wp_localize_script('sample-product-script', 'sampleProductData', array(
