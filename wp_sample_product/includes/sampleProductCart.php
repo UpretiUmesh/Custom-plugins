@@ -31,7 +31,7 @@ class sampleProductCart
                                     <h5><?php echo $product_name; ?></h5>
                                     <span class="custom-mini-cart-item-price"><?php echo $product_price; ?></span>
                                     <a href="#" class="custom-remove-from-cart"
-                                        data-cart_item_key="<?php echo esc_attr($cart_item_key); ?>">Remove</a>
+                                        data-cart_item_key="<?php echo esc_attr($cart_item_key); ?>">×</a>
                                 </div>
                             </li>
                             <?php
