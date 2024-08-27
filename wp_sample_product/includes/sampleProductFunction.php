@@ -23,9 +23,11 @@ class sampleProductFunction
     {
         global $product;
 
+        $sampleOptions = get_option('spp_plugin_settings', '');
+        
         // Only display for simple products
-        if ($product->is_type('simple')) {
-            echo '<button id="add-sample-button" class="button alt">Get Free Sample</button>';
+        if ($sampleOptions['spp_enable_product_type']) {
+            echo '<button id="add-sample-button" class="button alt">'.$sampleOptions['spp_custom_button_text'].'</button>';
         }
     }
     public function handle_add_sample_to_cart()

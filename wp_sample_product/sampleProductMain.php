@@ -3,7 +3,7 @@
 Plugin Name: Sample Product Plugin
 Description: Adds a Free Sample button to product pages.
 Version: 1.0
-Author: Your Name
+Author: Umesh
 */
 
 // Exit if accessed directly
@@ -15,11 +15,13 @@ if (!defined('ABSPATH')) {
 require_once plugin_dir_path(__FILE__) . 'includes/sampleProductFunction.php';
 require_once plugin_dir_path(__FILE__) . 'includes/sampleProductCart.php';
 require_once plugin_dir_path(__FILE__) . 'includes/sampleProductModal.php';
+require_once plugin_dir_path(__FILE__) . 'includes/sampleBackendSettings.php';
 
 function spp_initialize_plugin() {
     new sampleProductFunction();
     new sampleProductCart();
     new sampleProductModal();
+    new sampleBackendSettings();
 }
 add_action('plugins_loaded', 'spp_initialize_plugin');
 
