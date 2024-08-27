@@ -24,7 +24,14 @@ class sampleProductFunction
         global $product;
 
         $sampleOptions = get_option('spp_plugin_settings', '');
-        
+        ?>
+        <div class="custom_text">
+            <div class="custom_sample_text">
+                 <h2 class="card__title heading h3"><?= $sampleOptions['spp_modal_additiona_head']?></h2>
+                    <p><?= $sampleOptions['spp_modal_additional_body_text']?></p>
+            </div>
+            <div class="custom_sample_buttons">
+                <?php
         // Only display for simple products
         if ($sampleOptions['spp_enable_product_type']) {
             $current_product_id = get_the_ID(); 
@@ -37,13 +44,18 @@ class sampleProductFunction
                 }
             }
             if ( $is_in_cart ) {
-                echo '<button id="add-sample-button" class="button alt">'.$sampleOptions['spp_custom_button_text_after'].'</button>';
+                echo '<button id="add-sample-button" class="button alt" disabled>'.$sampleOptions['spp_custom_button_text_after'].'</button>';
             } else {
-                 echo 'cart not added';
                 echo '<button id="add-sample-button" class="button alt">'.$sampleOptions['spp_custom_button_text_before'].'</button>';
             }
-           
         }
+        ?>
+            </div>
+        </div>
+       
+        <?php
+    
+      
     }
     public function handle_add_sample_to_cart()
     {

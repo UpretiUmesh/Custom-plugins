@@ -81,7 +81,19 @@ class sampleBackendSettings
                 'type' => 'text',
                 'default' => '',
                 'description' => __('Change the custom cart body text.', 'spp')
-            ],            
+            ],
+             'spp_modal_additiona_head' => [
+                'label' => __('Custom Additional Head Text', 'spp'),
+                'type' => 'text',
+                'default' => 'example',
+                'description' => __('Change the Additional custom  text.', 'spp')
+            ],
+             'spp_modal_additional_body_text' => [
+                'label' => __('Custom Additional Body Text', 'spp'),
+                'type' => 'text',
+                'default' => 'example',
+                'description' => __('Change the custom Additional body text.', 'spp')
+            ],
 
         ];
 
