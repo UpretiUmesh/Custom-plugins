@@ -46,10 +46,16 @@ class sampleBackendSettings
                 'default' => 'Simple',
                 'description' => __('Display Product Type.', 'spp')
             ],
-            'spp_custom_button_text' => [
-                'label' => __('Custom Button Text', 'spp'),
+            'spp_custom_button_text_before' => [
+                'label' => __('Custom Button Text Before Add Product', 'spp'),
                 'type' => 'text',
                 'default' => __('Get Free Sample', 'spp'),
+                'description' => __('Set the custom text for the "Get Free Sample" button.', 'spp')
+            ],
+            'spp_custom_button_text_after' => [
+                'label' => __('Custom Button Text After Add Product', 'spp'),
+                'type' => 'text',
+                'default' => __('Sample Added', 'spp'),
                 'description' => __('Set the custom text for the "Get Free Sample" button.', 'spp')
             ],
             'spp_custom_css' => [
@@ -61,19 +67,19 @@ class sampleBackendSettings
             'spp_view_modal_button' => [
                 'label' => __('Custom Cart Button Text', 'spp'),
                 'type' => 'text',
-                'default' => 'View Sample Cart',
+                'default' => '',
                 'description' => __('Set the custom text for the "View Sample Cart" button.', 'spp')
             ],
             'spp_modal_head_text' => [
                 'label' => __('Custom Cart Heading', 'spp'),
                 'type' => 'text',
-                'default' => 'Example Heading',
+                'default' => '',
                 'description' => __('Change the custom cart heading.', 'spp')
             ],
             'spp_modal_body_text' => [
                 'label' => __('Custom Cart Body Text', 'spp'),
                 'type' => 'text',
-                'default' => 'Example Body',
+                'default' => '',
                 'description' => __('Change the custom cart body text.', 'spp')
             ],            
 

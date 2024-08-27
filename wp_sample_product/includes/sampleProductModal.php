@@ -26,7 +26,7 @@ class sampleProductModal
                     </div>
                     <div class="modal-body d-flex align-items-center">
                         <div class="sample-cart-items d-flex">
-                       <?php sampleProductCart::custoMiniCart(); ?>
+                            <?php  sampleProductCart::custoMiniCart(); ?>
                             <!-- Repeat this div for each sample item in the cart -->
                             <!-- Add more sample items as needed -->
                         </div>
@@ -44,7 +44,15 @@ class sampleProductModal
     public function add_sample_cart_button()
     {
         $sampleOptions = get_option('spp_plugin_settings',);
-        echo '<button id="sample-cart-button" class="sample-cart-button">'.$sampleOptions['spp_view_modal_button'].'<span class="cart-count"></span></button>';
+        if ( WC()->cart->get_cart_contents_count() > 0 ) {
+            $cart_item_count = WC()->cart->get_cart_contents_count();
+             echo '<button id="sample-cart-button" class="sample-cart-button">'.$sampleOptions['spp_view_modal_button'].'(<span class="cart-item-count">'.$cart_item_count.'</span>)</button>';
+        } else {
+            // The cart is empty
+            echo '<button id="sample-cart-button" class="sample-cart-button">'.$sampleOptions['spp_view_modal_button'].'(<span class="cart-item-count">0</span>)</button>';
+        }
+
+       
 
     }
 

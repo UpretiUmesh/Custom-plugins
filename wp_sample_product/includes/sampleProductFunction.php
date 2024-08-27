@@ -24,10 +24,25 @@ class sampleProductFunction
         global $product;
 
         $sampleOptions = get_option('spp_plugin_settings', '');
-
+        
         // Only display for simple products
         if ($sampleOptions['spp_enable_product_type']) {
-            echo '<button id="add-sample-button" class="button alt">'.$sampleOptions['spp_custom_button_text'].'</button>';
+            $current_product_id = get_the_ID(); 
+            $is_in_cart = false;
+            
+            foreach ( WC()->cart->get_cart() as $cart_item ) {
+                if ( $cart_item['product_id'] == $current_product_id ) {
+                    $is_in_cart = true;
+                    break;
+                }
+            }
+            if ( $is_in_cart ) {
+                echo '<button id="add-sample-button" class="button alt">'.$sampleOptions['spp_custom_button_text_after'].'</button>';
+            } else {
+                 echo 'cart not added';
+                echo '<button id="add-sample-button" class="button alt">'.$sampleOptions['spp_custom_button_text_before'].'</button>';
+            }
+           
         }
     }
     public function handle_add_sample_to_cart()
@@ -56,7 +71,12 @@ class sampleProductFunction
             sampleProductCart::custoMiniCart(); // This function outputs the mini cart
             $cart_html = ob_get_clean();
 
-            wp_send_json_success(array('cart_html' => $cart_html));
+            wp_send_json_success(array(
+                'cart_html' => $cart_html,
+                'cart_item_count' => WC()->cart->get_cart_contents_count(),
+                'cart_totals' => WC()->cart->get_cart_total(),
+                'sample_product_removed' => $removed_product_id == $sample_product_id
+            ));
         } else {
             wp_send_json_error('Sample already in cart');
         }
