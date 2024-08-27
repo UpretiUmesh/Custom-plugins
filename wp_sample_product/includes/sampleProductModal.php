@@ -43,7 +43,7 @@ class sampleProductModal
     public function add_sample_cart_button()
     {
         $sampleOptions = get_option('spp_plugin_settings',);
-        echo '<button id="sample-cart-button" class="sample-cart-button">'.$sampleOptions['spp_view_modal_button'].'<span class="cart-count">'.$cart_counts.'</span></button>';
+        echo '<button id="sample-cart-button" class="sample-cart-button">'.$sampleOptions['spp_view_modal_button'].'<span class="cart-count"></span></button>';
 
     }
 
