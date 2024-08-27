@@ -24,7 +24,7 @@ class sampleProductFunction
         global $product;
 
         $sampleOptions = get_option('spp_plugin_settings', '');
-        
+
         // Only display for simple products
         if ($sampleOptions['spp_enable_product_type']) {
             echo '<button id="add-sample-button" class="button alt">'.$sampleOptions['spp_custom_button_text'].'</button>';
@@ -123,7 +123,7 @@ class sampleProductFunction
                         <h5><?php echo $product_name; ?></h5>
                         <span class="custom-mini-cart-item-price"><?php echo $product_price; ?></span>
                         <a href="#" class="custom-remove-from-cart"
-                            data-cart_item_key="<?php echo esc_attr($cart_item_key); ?>">Remove</a>
+                            data-cart_item_key="<?php echo esc_attr($cart_item_key); ?>">×</a>
                     </div>
                 </li>
                 <?php

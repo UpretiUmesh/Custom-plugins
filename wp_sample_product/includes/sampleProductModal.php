@@ -26,6 +26,7 @@ class sampleProductModal
                     </div>
                     <div class="modal-body d-flex align-items-center">
                         <div class="sample-cart-items d-flex">
+                       <?php sampleProductCart::custoMiniCart(); ?>
                             <!-- Repeat this div for each sample item in the cart -->
                             <!-- Add more sample items as needed -->
                         </div>

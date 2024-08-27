@@ -25,8 +25,6 @@ jQuery(document).ready(function ($) {
                 }
             },
             error: function () {
-                alert('not working');
-                return false;
                 alert("There was an error adding the sample to your cart.");
             },
         });
