@@ -1,0 +1,158 @@
+.quiz-block {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+.questions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.questions-table th,
+.questions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.add-option,
+#add-quiz,
+.add-question {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.remove-quiz,
+.remove-question,
+.remove-option {
+    background: #ff3b30;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.quiz-options {
+    margin-bottom: 15px;
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+legend {
+    font-weight: bold;
+    font-size: 18px;
+}
+.quiz-block {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+.questions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.questions-table th,
+.questions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.add-option,
+#add-quiz,
+.add-question {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.remove-quiz,
+.remove-question,
+.remove-option {
+    background: #ff3b30;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    height: 30px;
+    position: relative;
+}
+.progress-bar {
+    width: <?= $result['progress']; ?>%;
+    height: 100%;
+    background-color: <?= ($result['progress'] >= 75) ? '#d9534f' : (($result['progress'] >= 50) ? '#f0ad4e' : '#5cb85c'); ?>;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+}
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.cta-button:hover {
+    background-color: #0056b3;
+}
+fieldset.steps-sec {
+    background: #fff;
+    padding: 16px;
+    border-radius: 17px;
+    margin-bottom: 20px;
+}
+.single-option {
+    display: flex;
+    padding-top: 15px;
+    gap: 12px;
+}
+
+.single-option label {
+/*     width: 25%; */
+    border: 1px solid #D9D9D9;
+    padding: 13px;
+    border-radius: 10px;
+    color: #000;
+    font-size: 18px;
+    padding-left: 18px;
+}
+fieldset.steps-sec legend {
+    font-size: 20px;
+    color: #000000;
+    font-family: inter;
+    font-weight: 700;
+}
+/* Highlight unanswered questions */
+.question.error {
+    border: 2px solid red;
+}
+
+/* Highlight invalid fields (username and email) */
+input.error {
+    border: 2px solid red;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
