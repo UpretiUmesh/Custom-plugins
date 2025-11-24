@@ -1,0 +1,22 @@
+{
+  "name": "umeshupreti/terms-enforcer",
+  "description": "Displays a modal for Terms & Conditions that users must scroll through before accepting.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Umesh Upreti",
+      "email": "your@email.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TermsEnforcer\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
